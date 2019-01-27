@@ -22,9 +22,12 @@ class BoxFinal{
 		b2.length = 5;
 		b2.height = 2;
 		
-		vol = b1.volume(); 
+	/*	vol = b1.volume(); 
 		System.out.println("Volume of Box 1 is : " + vol);
 		vol = b2.volume(); 
-		System.out.println("Volume of Box 2 is : " + vol);
+		System.out.println("Volume of Box 2 is : " + vol); */
+		
+		System.out.println("Volume of Box 1 is : " + b1.volume());
+		System.out.println("Volume of Box 2 is : " + b2.volume());
 	}
 }
